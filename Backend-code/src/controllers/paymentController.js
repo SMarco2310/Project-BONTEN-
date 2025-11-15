@@ -125,6 +125,9 @@ export const paystackWebhook = async (req, res) => {
         },
       });
 
+
+      // make changes here and in the other part to to reflect actual business logic
+
       // Step 2: Send confirmation email
       if (booking.user?.email) {
         const html = `
